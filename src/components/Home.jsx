@@ -8,7 +8,7 @@ const Home = () => {
         <div className="w-[100%] bg-slate-300">
           <img
             className="w-[100%] h-[400px] md:h-[600px] object-cover"
-            src="../src/assets/photo_2024-07-24_22-04-52.jpg"
+            src="src/assets/photo_2024-07-24_22-04-52.jpg"
             alt="photo_2024-07-24_22-04-52.jpg"
           />
         </div>
