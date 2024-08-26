@@ -1,3 +1,9 @@
+import BoxMediaimg1 from "../assets/desktop-wallpaper-red-flower-black-background-dark-red-flower.jpg";
+import BoxMediaimg2 from "../assets/photo_2024-07-23_17-03-58.jpg";
+import BoxMediaimg3 from "../assets/photo_2024-07-23_17-06-57.jpg";
+import BoxMediaimg4 from "../assets/photo_2024-07-23_17-08-07.jpg";
+import BoxMediaimg5 from "../assets/photo_2024-07-23_17-09-19.jpg";
+
 
 const PhotoCom = () => {
   return (
@@ -22,7 +28,7 @@ const PhotoCom = () => {
         <div className="w-[90%] bg-[#262626] mx-auto grid gap-8 items-center py-12 md:grid-cols-2">
           <img
             className=" h-96 rounded-2xl"
-            src="../src/assets/desktop-wallpaper-red-flower-black-background-dark-red-flower.jpg"
+            src={BoxMediaimg1}
             alt="desktop-wallpaper-red-flower-black-background-dark-red-flower.jpg"
           />
           <div className="p-5 flex flex-col gap-8 bg-[#262626] text-white">
@@ -45,19 +51,20 @@ const PhotoCom = () => {
         </h2>
         <div className="grid grid-cols-2 grid-rows-3 gap-4 p-[5%] bg-[#262626]">
           <div className="bg-[#262626] col-span-2 row-span-1">
-            <img src="../src/assets/photo_2024-07-23_17-03-58.jpg" alt="" />
+            <img src={BoxMediaimg2} alt="photo_2024-07-23_17-03-58.jpg" />
           </div>
           <div className="bg-[#262626]">
-            <img src="../src/assets/photo_2024-07-23_17-06-57.jpg" alt="" />
+            <img src={BoxMediaimg3} alt="photo_2024-07-23_17-06-57.jpg" />
           </div>
           <div className="bg-[#262626]">
-            <img src="../src/assets/photo_2024-07-23_17-08-07.jpg" alt="" />
+            <img src={BoxMediaimg4} alt="photo_2024-07-23_17-08-07.jpg" />
           </div>
           <div className="bg-[#262626] col-span-2 row-span-1 relative">
-            <img src="../src/assets/photo_2024-07-23_17-09-19.jpg" alt="" />
-            <span
-              className="absolute bottom-5 left-1/2 -translate-x-1/2 py-2 px-10 cursor-pointer rounded-3xl bg-transparent text-white border-[2px] border-white hover:bg-gray-200 hover:text-black transition-colors duration-300 sm:bottom-3 sm:left-1/2 sm:-translate-x-1/2 sm:py-2 sm:px-10 sm:text-sm md:bottom-5 md:left-1/2 md:-translate-x-1/2 md:py-3 md:px-20 lg:bottom-8 lg:left-1/2 lg:-translate-x-1/2 lg:py-3 lg:px-20"
-            >
+            <img
+              src={BoxMediaimg5}
+              alt="photo_2024-07-23_17-09-19.jpg"
+            />
+            <span className="absolute bottom-5 left-1/2 -translate-x-1/2 py-2 px-10 cursor-pointer rounded-3xl bg-transparent text-white border-[2px] border-white hover:bg-gray-200 hover:text-black transition-colors duration-300 sm:bottom-3 sm:left-1/2 sm:-translate-x-1/2 sm:py-2 sm:px-10 sm:text-sm md:bottom-5 md:left-1/2 md:-translate-x-1/2 md:py-3 md:px-20 lg:bottom-8 lg:left-1/2 lg:-translate-x-1/2 lg:py-3 lg:px-20">
               View more
             </span>
           </div>
