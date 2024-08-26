@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Navbar } from "flowbite-react";
-
+import BoxMediaLogo from "../../assets/Box Media Logo.png";
 const Navigate = () => {
   const location = useLocation();
   const [navbarList, setNavbarList] = useState([
@@ -17,7 +17,7 @@ const Navigate = () => {
       <Navbar fluid rounded className="bg-black">
         <Navbar.Brand as={Link} to="/">
           <img
-            src="../src/assets/Box Media Logo.png"
+            src={BoxMediaLogo}
             className="mr-6 h-8 sm:h-14 ml-6"
             alt="Box media Logo"
           />
