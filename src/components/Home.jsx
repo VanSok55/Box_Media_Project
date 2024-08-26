@@ -234,7 +234,7 @@ const Home = () => {
           Trusted by our government and companies
         </h2>
         <img
-          src={BoxMediaimg1}
+          src={BoxMediaimg8}
           className="object-cover"
           alt="goverment img"
         />
