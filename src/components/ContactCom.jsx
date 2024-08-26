@@ -1,5 +1,8 @@
 import { LiaSquareFullSolid } from "react-icons/lia";
 import { FaFacebook,FaTelegram,FaInstagram } from "react-icons/fa";
+import BoxMediaimg1 from "../assets/gmail_5968534.png";
+import BoxMediaimg2 from "../assets/icons8-instagram-48.png";
+
 
 const ContactCom = () => {
   return (
@@ -72,14 +75,14 @@ const ContactCom = () => {
             >
               <img
                 className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-14 lg:w-14"
-                src="../src/assets/gmail_5968534.png"
+                src={BoxMediaimg1}
                 alt="gmail_5968534.png"
               />
             </a>
             <a href="#" class="hover:translate-y-1 transition-all duration-300">
               <img
                 className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-16 lg:w-16"
-                src="../src/assets/icons8-instagram-48.png"
+                src={BoxMediaimg2}
                 alt="icons8-instagram-48.png"
               />
             </a>
