@@ -1,6 +1,15 @@
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { FaUsers } from "react-icons/fa";
 import { SlCamrecorder } from "react-icons/sl";
+// import Photo from "../assets/photo_2024-07-24_22-04-52.jpg";
+import BoxMediaimg1 from "../assets/photo_2024-07-24_22-04-52.jpg";
+import BoxMediaimg2 from "../assets/photo_2024-07-23_17-06-57.jpg";
+import BoxMediaimg3 from "../assets/photo_2024-07-24_22-12-53.jpg";
+import BoxMediaimg4 from "../assets/photo_2024-07-24_22-14-02.jpg";
+import BoxMediaimg5 from "../assets/photo_2024-07-24_22-15-07.jpg";
+import BoxMediaimg6 from "../assets/photo_2024-07-24_22-20-49.jpg";
+import BoxMediaimg7 from "../assets/photo_2024-07-24_22-21-34.jpg";
+import BoxMediaimg8 from "../assets/photo_2024-07-23_17-06-57.jpg";
 const Home = () => {
   return (
     <>
@@ -8,8 +17,8 @@ const Home = () => {
         <div className="w-[100%] bg-slate-300">
           <img
             className="w-[100%] h-[400px] md:h-[600px] object-cover"
-            src="src/assets/photo_2024-07-24_22-04-52.jpg"
-            alt="photo_2024-07-24_22-04-52.jpg"
+            src={BoxMediaimg1}
+            alt="A description of the image"
           />
         </div>
         <div className="w-[100%] bg-[#444242] text-center p-4 md:p-6">
@@ -56,8 +65,8 @@ const Home = () => {
             <div className="flex flex-col items-center text-slate-300 bg-[#262626]">
               <img
                 className="object-cover w-full h-[260px] mb-4 md:mb-8 rounded-md"
-                src="../src/assets/photo_2024-07-23_17-06-57.jpg"
-                alt="photo_2024-07-23_17-06-57.jpg"
+                src={BoxMediaimg2}
+                alt="A description of the image"
               />
               <h3 className="bg-[#262626] text-xl md:text-2xl mt-2 text-center">
                 Photo
@@ -67,8 +76,8 @@ const Home = () => {
             <div className="flex flex-col items-center text-slate-300 bg-[#262626]">
               <img
                 className="object-cover w-full h-[260px] mb-4 md:mb-8 rounded-md"
-                src="../src/assets/photo_2024-07-24_22-12-53.jpg"
-                alt="photo_2024-07-24_22-12-53.jpg"
+                src={BoxMediaimg3}
+                alt="A description of the image"
               />
               <h3 className="bg-[#262626] text-xl md:text-2xl mt-2 text-center">
                 Video
@@ -78,8 +87,8 @@ const Home = () => {
             <div className="flex flex-col items-center text-slate-300 bg-[#262626]">
               <img
                 className="object-cover w-full h-[260px] mb-4 md:mb-8 rounded-md"
-                src="../src/assets/photo_2024-07-24_22-14-02.jpg"
-                alt="photo_2024-07-24_22-14-02.jpg"
+                src={BoxMediaimg4}
+                alt="A description of the image"
               />
               <h3 className="bg-[#262626] text-xl md:text-2xl mt-2 text-center">
                 Sound
@@ -152,8 +161,8 @@ const Home = () => {
             <div className="flex flex-col items-center text-slate-300 bg-[#262626]">
               <img
                 className="object-cover w-full h-[300px] mb-4 md:mb-8 rounded-md"
-                src="../src/assets/photo_2024-07-24_22-15-07.jpg"
-                alt="photo_2024-07-24_22-15-07.jpg"
+                src={BoxMediaimg5}
+                alt="A description of the image"
               />
               <p className="bg-[#262626] mt-2">
                 Our approach to our work process involve creative thinking and
@@ -167,8 +176,8 @@ const Home = () => {
             <div className="flex flex-col items-center text-slate-300 bg-[#262626]">
               <img
                 className="object-cover w-full h-[300px] mb-4 md:mb-8 rounded-md"
-                src="../src/assets/photo_2024-07-24_22-20-49.jpg"
-                alt="photo_2024-07-24_22-20-49.jpg"
+                src={BoxMediaimg6}
+                alt="A description of the image"
               />
               <p className="bg-[#262626] mt-2">
                 Our approach to our work process involve creative thinking and
@@ -182,8 +191,8 @@ const Home = () => {
             <div className="flex flex-col items-center text-slate-300 bg-[#262626]">
               <img
                 className="object-cover mb-4 w-full h-[300px] md:mb-8 rounded-md"
-                src="../src/assets/photo_2024-07-24_22-21-34.jpg"
-                alt="photo_2024-07-24_22-21-34.jpg"
+                src={BoxMediaimg7}
+                alt="A description of the image"
               />
               <p className="bg-[#262626] mt-2">
                 Our approach to our work process involve creative thinking and
@@ -225,7 +234,7 @@ const Home = () => {
           Trusted by our government and companies
         </h2>
         <img
-          src="../src/assets/photo_2024-07-22_23-42-35.jpg"
+          src={BoxMediaimg1}
           className="object-cover"
           alt="goverment img"
         />

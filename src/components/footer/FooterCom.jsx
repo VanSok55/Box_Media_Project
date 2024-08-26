@@ -5,6 +5,7 @@ import {
   BsInstagram,
   BsTelegram,
 } from "react-icons/bs";
+import BoxMediaimg1 from "../../assets/Box Media Logo.png";
 
 const FooterCom = () => {
   return (
@@ -15,7 +16,7 @@ const FooterCom = () => {
             <div className="grid w-full grid-cols-3 gap-8 px-6 py-8 md:grid-cols-6">
               <img
                 className="w-[70%]"
-                src="../src/assets/Box Media Logo.png"
+                src={BoxMediaimg1}
                 alt="Box Media Logo"
               />
               <div>
